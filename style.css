@@ -23,6 +23,50 @@ body{
     position: relative;
 }
 
+@media screen and (max-width : 856px) {
+.clock{
+    width: 40%;
+    }
+}
+
+@media screen and (max-width : 856px) {
+    .clock{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .clock{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .clock{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width : 331px) {
+    .clock{
+        width: 85%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width : 279px) {
+    .clock{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width : 246px) {
+    .clock{
+        width: 100%;
+    }
+}
+
+
 .clock::after{
     content: "";
     position: absolute;
